@@ -15,6 +15,19 @@
     </entry>
     
     
+    
+    <entry>
+      <title>Git Procedures</title>
+      <link href="/2020/05/20/Git%20Procedures/"/>
+      <url>/2020/05/20/Git%20Procedures/</url>
+      
+        <content type="html"><![CDATA[<p>title:  GITHUB PROCEDURES</p><p>Step 1: 建立空文件夹</p><p>$ hexo -v</p><p>$ hexo init MHO</p><p>$ cd MHO</p><p>$ cnpm install</p><p>Step 2: 通过Github Desktop上传到github上，修改_config.yml中的网址</p><p>$ cnpm install hexo-deployer-git –save</p><p>Step 3: 下载themes: ayer, butterfly, next, and autumn</p><p>$ git clone -b master <a href="https://github.com/jerryc127/hexo-theme-butterfly.git" target="_blank" rel="noopener">https://github.com/jerryc127/hexo-theme-butterfly.git</a> themes/Butterfly</p><p>$ git clone <a href="https://github.com/Shen-Yu/hexo-theme-ayer.git" target="_blank" rel="noopener">https://github.com/Shen-Yu/hexo-theme-ayer.git</a> themes/ayer</p><p>$ git clone <a href="https://github.com/FrontendSophie/hexo-theme-autumn.git" target="_blank" rel="noopener">https://github.com/FrontendSophie/hexo-theme-autumn.git</a> themes/autumn</p><p>$ git clone <a href="https://github.com/theme-next/hexo-theme-next" target="_blank" rel="noopener">https://github.com/theme-next/hexo-theme-next</a> themes/next</p><p>$ git clone <a href="https://github.com/PhosphorW/hexo-theme-academia.git" target="_blank" rel="noopener">https://github.com/PhosphorW/hexo-theme-academia.git</a> themes/Academia</p><p>Step 4: 编辑Butterfly的_config.yml</p><ol><li>npm install hexo-renderer-pug hexo-renderer-stylus –save</li><li>图片 &amp; 文字；</li><li>$ hexo new page tags      $ hexo new page categories   $ hexo new page link</li></ol>]]></content>
+      
+      
+      
+    </entry>
+    
+    
   
   
 </search>
